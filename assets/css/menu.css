@@ -1,0 +1,79 @@
+header.header .first-column.container a img.logo-polo {
+    width: 17rem;
+    /* margin-bottom: 10px; */
+}
+
+.first-column.container ul li:first-child {
+    margin-right: 5px;
+}
+
+.first-column.container ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+}
+
+span.accessibility {
+    display: none;
+}
+
+span.search {
+    display: none;
+}
+
+/* Esconder no formato desktop, exibindo-o na forma responsiva */
+/* .second-column .container nav.menu {
+    display: none;
+} */
+
+/* Faz exibir o Menu */
+.second-column .container .wrapper-hamburger {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Estiliza o texto 'Menu' */
+.second-column .container .wrapper-hamburger span {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 540;
+    letter-spacing: 0.2rem;
+}
+
+/* Da estilo ao menu hamburguer */
+.second-column .container .wrapper-hamburger .menu-hamburguer span {
+    display: block;
+    width: 3rem;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.second-column .container:nth-child(2) {
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    height: 50vh;
+
+}
+
+/* .second-column .container menu.on {
+    display: block;
+} */
+
+.second-column .container .menu ul {
+    flex-direction: column !important;
+    margin-left: 2rem;
+
+}
+
+.second-column .container .menu ul li a {
+    color: #241f20;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 21px;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+}

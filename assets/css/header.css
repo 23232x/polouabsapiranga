@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* 
+********** HEADER ********
+*/
+
+/* firt header container */
+.first-column.container {
+    padding: 2.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first-column.container ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.first-column.container ul li:first-child {
+    margin-right: 35px;
+}
+
+/* Estiliza os elmentos de acessibilidade e pesquisa do menu */
+.first-column.container ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #002140;
+}
+
+.first-column.container ul li a img {
+    margin-right: 10px;
+}
+
+.second-column {
+    background-color: #002140;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+
+.second-column .container .menu ul {
+    display: flex;
+}
+
+.second-column .container nav.menu ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding: 0.25rem;
+    margin: 1rem;
+    margin-right: 2rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* hide hamburger menu */
+.wrapper-hamburger {
+    display: none;
+}
+
+
+/* from here starts the style files of submenu */
+.sub-menu {
+    background-color: #fff;
+    padding: 2rem 0 5rem 0;
+}
+
+/* turn the container flexible */
+.sub-menu .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: center;
+
+}
+
+.sub-menu .container h4 {
+    margin-bottom: 1.25rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+    color: black;
+    line-height: 3rem;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.sub-menu .container ul li p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #241f20;
+    line-height: 2.4rem;
+}
+
+.sub-menu .container ul li a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #241f20;
+    line-height: 3.5rem;
+}
+
+.sub-menu .container ul li a:hover {
+    border-bottom: 0.25px solid black;
+
+}
