@@ -1,18 +1,18 @@
+<!-- importa o header -->
 <?php get_header(); ?>
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<!-- faz o LOOP principal -->
+<?php if(have_posts()) { while(have_posts()) { the_post(); ?>
 
+<h1 class="titulo"><?php the_title() ?></h1>
 
-        <!-- <?php the_title(); ?>
-        <?php the_content(); ?> -->
+<!-- mostra o conteúdo do site -->
+<main class="container container-index">
+  <?php the_content();  ?>
+</main>
 
-    <?php endwhile;
-else : ?>
+<!-- fim do loope principal -->
+<?php } } ?>
 
-
-    <p> <?php _e('Sorry, no post matched your criteria.'); ?> </p>
-
-<?php endif; ?>
-
-
+<!-- importa o footer -->
 <?php get_footer(); ?>

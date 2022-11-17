@@ -5,11 +5,14 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <!-- Swiper -->
+       
+       
+       
+       
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="slide-item">
-
                         <!-- 1º colunm -->
                         <div class="slide-item-left">
                             <h4>Título</h4>
