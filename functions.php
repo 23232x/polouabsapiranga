@@ -1,14 +1,11 @@
-
+<!-- https://www.origamid.com/curso/wordpress-como-cms/5-19-scripts-e-css -->
 <!-- Just another functions files -->
 <?php
-
-// Remove a barra de admin
-add_filter('show_admin_bar', '__return_false');
-
-// Carrega código js 
-function my_theme_scripts_function() {
-  wp_enqueue_script( 'myscript', get_template_directory() . '/assets/js/teste.js');
+// Função para registrar script e css 
+function polo_scripts(){  
+  wp_register_script('jsDoSwiper', get_template_directory_uri() . '/assets/js/teste.js', [],false, true);
+  wp_enqueue_script('jsDoSwiper');
 }
-add_action('wp_enqueue_scripts','my_theme_scripts_function');
+
 
 ?>

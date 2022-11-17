@@ -1,1 +1,1 @@
-alert('ola');
+document.body.style.backgroundColor = 'red';

@@ -11,6 +11,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <!-- Swiper -->
+      
        
        
        
@@ -18,7 +19,7 @@
 
        
 
-        
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/teste.js"></script>
 <?php endwhile;
 else : endif ?>
         <?php get_footer(); ?>  
