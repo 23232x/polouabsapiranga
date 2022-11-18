@@ -10,7 +10,7 @@ License: GNU General Public License v2 or later
 */
 
 
-/* @import url(assets/css/reset.css);
+/*
 @import url(assets/css/header.css);
 @import url(assets/css/page-section.css);
 @import url(assets/css/hero.css);
@@ -20,6 +20,7 @@ License: GNU General Public License v2 or later
 
 /* @import url(assets/css/teste.css); */
 
-body {
-    background-color: red;
-}
+@import url(assets/css/reset.css);
+@import url(assets/css/header.css);
+@import url(assets/css/swiper.css);
+@import url(assets/css/footer.css);

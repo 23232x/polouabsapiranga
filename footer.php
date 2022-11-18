@@ -99,13 +99,13 @@
         </div>
     </footer>
 
-
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script>
+<!-- 
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script> -->
         <!-- Swiper JS -->
         <script src="<?php echo get_stylesheet_directory_uri(); ?>https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
 
         <!-- Initialize Swiper -->
-        <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/swiper.js"></script>       
+        <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/swiper.js"></script>        -->
         
         <!-- <script>
             var swiper = new Swiper(".mySwiper", {
