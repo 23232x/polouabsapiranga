@@ -7,8 +7,6 @@
         <!-- Swiper -->
        
        
-       
-       
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -60,7 +58,7 @@
         </div>
 
 
-        <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/swiper.js"></script>   
+        <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/swiper.js"></script>    -->
        
         <?php get_footer(); ?>  
         

@@ -1,7 +1,7 @@
 /*
 Theme Name: Polo UAB Sapiranga
 Theme URI: --
-Author: Adriano Scheffer Amado
+Author: Adriano asamado asa
 Author URI: ----
 phone of author: 51 997498703
 Description: this theme was created for POlo UAB Sapiranga
@@ -18,4 +18,8 @@ License: GNU General Public License v2 or later
 @import url(assets/css/footer.css); */
 
 
-@import url(assets/css/teste.css);
+/* @import url(assets/css/teste.css); */
+
+/* body {
+    background-color: red;
+} */
