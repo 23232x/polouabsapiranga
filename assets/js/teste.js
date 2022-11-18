@@ -1,1 +1,2 @@
-document.body.style.backgroundColor = 'green';
+// document.body.style.backgroundColor = 'green';
+alert("ola");

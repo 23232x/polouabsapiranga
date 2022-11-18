@@ -15,17 +15,12 @@ add_action( 'wp_enqueue_scripts', 'polo_scripts' );
 
 
 // Function to registry CSS into wordpress pages
-// function polo_css(){
-//  wp_register_style('polo-style', get_template_directory_uri() . 'style.css', [], false, false);
-// wp_enqueue_style('polo-style');
-// }
-// add_action('wp_enqueue_scripts','polo-style');
-
-
-
-
-
-
+function polo_style(){  
+  wp_register_style( 'polo_style', get_template_directory_uri() . '/style.css', array(), false, false);
+  
+  wp_enqueue_style( 'polo_style' );
+}
+add_action( 'wp_enqueue_scripts', 'polo_style' );
 
 ?>
 
