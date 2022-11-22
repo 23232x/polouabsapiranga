@@ -3,8 +3,12 @@
 
 <head>
   <title><?php bloginfo('name'); ?></title>
-  <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/responsive.css" media="screen and (max-width:980px)"> -->
+ 
+ 
+ 
+
+
+  <!--<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/responsive.css" media="screen and (max-width:980px)"> -->
   <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/assets/css/menu.css" media="screen and (max-width:694px)"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

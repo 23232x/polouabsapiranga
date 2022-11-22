@@ -58,7 +58,7 @@
         </div>
 
 
-        <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/swiper.js"></script>    -->
+        
        
         <?php get_footer(); ?>  
         
