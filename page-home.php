@@ -18,9 +18,91 @@
 <!-- all the contend page goes here -->
 <main>
 
-<!-- this section contains the universety partner of polo UAB Sapiranga -->
-<section class="partners container">
-<h4 class="title-section">Instituções Parceiras</h4>
+<section class="main-video">
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- and now the cool swiper goes down here -->
+<div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-item">
+                        <!-- 1º colunm -->
+                        <div class="slide-item-left">
+                            <h4>Título</h4>
+                            <h2>Escolha um curso e venha estudar no Polo UAB</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam eaque, nesciunt
+                                mollitia repellendus saepe error amet fuga molestiae magnam quod nihil enim atque,
+                                doloremque facere maxime dolorem aut cumque?
+                            </p>
+                            <a class="btn-hero" href="">Saiba mais</a>
+                        </div>
+
+                        <!-- 2º colunm -->
+                        <div class="slide-item-right">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-item">
+
+                        <!-- 1º colunm -->
+                        <div class="slide-item-left">
+                            <h4>Título</h4>
+                            <h2>Venha estudar no Polo UAB</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam eaque, nesciunt
+                                mollitia repellendus saepe error amet fuga molestiae magnam quod nihil enim atque,
+                                doloremque facere maxime dolorem aut cumque?
+                            </p>
+                            <a class="btn-hero" href="">Saiba mais</a>
+                        </div>
+
+                        <!-- 2º colunm -->
+                        <div class="slide-item-right">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- this section contains the universety partner of polo UAB Sapiranga -->
+
+        <section class="partners container">
+<h4 class="title-section">Instituições que trabalham juntas para oferecer a melhor educação no polo UAB em Sapiranga.</h4>
 <ul>
     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt=""></a></li>
     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ifsul.png" alt=""></a></li>

@@ -4,9 +4,18 @@
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
-
 }
 
+/* override the reset.css */
+h4.title-section {
+    text-align: left;
+    font-size: 4rem;
+    margin: 4rem 0;
+    font-weight: 500;
+    line-height: 5rem;
+    width: 45%;
+
+}
 
 .partners ul {
     display: flex;
@@ -26,10 +35,21 @@
     padding: 2rem
 }
 
+.partners ul li a img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: gray scale(100%);
+}
 
-/* override the reset.css */
-h4.title-section {
-    text-align: center;
-    font-size: 4rem;
-    margin: 4rem 0
+
+.partners ul li a img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: gray scale(0%);
+}
+
+
+.main-video {
+    background-image: url('/assets/img/hero/hero1.jpg') no-repeat center;
+    height: 100vh;
 }
