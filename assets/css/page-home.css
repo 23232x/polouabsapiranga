@@ -1,0 +1,21 @@
+.partners {
+    margin: 5rem auto;
+}
+
+.partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.partners ul li {
+
+    display: block;
+    width: 15rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
