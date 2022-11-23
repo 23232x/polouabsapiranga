@@ -73,7 +73,7 @@
     </div>
 
     <!-- sub-menu sobre -->
-    <div class="sub-menu">
+    <div class="sub-menu" style="display:none;">
 
       <!-- submenu sobre -->
       <div class="container" id="sobre" style="display:none">
