@@ -77,7 +77,7 @@
         </div>
 
         <!-- tittle -->
-        <div class="tittle-section">
+        <div class="title-section">
             <h4>sobre Nós</h4>
             <ul class="sub-tittle-section">
                 <li>

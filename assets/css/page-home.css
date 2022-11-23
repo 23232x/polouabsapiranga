@@ -1,21 +1,35 @@
 .partners {
     margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+
 }
+
 
 .partners ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
-
+    align-items: center
 }
 
 .partners ul li {
-
     display: block;
     width: 15rem;
     height: 18rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
+    padding: 2rem
+}
+
+
+/* override the reset.css */
+h4.title-section {
+    text-align: center;
+    font-size: 4rem;
+    margin: 4rem 0
 }

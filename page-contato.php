@@ -59,7 +59,7 @@
             </div>
 
             <!-- tittle -->
-            <div class="tittle-section">
+            <div class="title-section">
                 <h4>Ficou com alguma dúvida? Contate nos</h4>
                 <ul class="sub-tittle-section">
                     <li>

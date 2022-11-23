@@ -70,3 +70,12 @@ p.text {
     background-color: #F3F0EC;
     width: 100%;
 }
+
+h4.title-section {
+    text-transform: capitalize;
+    font-family: 'Libre Bodoni', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7rem;
+    color: #241f20
+}
