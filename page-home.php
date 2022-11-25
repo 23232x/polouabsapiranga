@@ -9,16 +9,49 @@
 <!-- faz o LOOP principal -->
 <?php if (have_posts()) {
     while (have_posts()) {
-        the_post(); ?>
-
-
-        
+        the_post(); ?>       
 
 
 <!-- all the contend page goes here -->
 <main>
 
-<section class="main-video">
+
+
+
+<section class="main-hero">
+
+<div class="container">
+    <p class="text-intro">
+
+    Polo Universitário UBA de Sapiranga
+    Transformando a educação,
+    criando futuros!
+    </p>
+
+<div class="pesquisa">
+
+
+<span>Encontre um curso</span>
+
+<div class="busca">
+<!-- <?php get_search_form(); ?> -->
+
+
+<form action="<?php bloginfo('url'); ?>/" method="get">
+<input type="text" name="s" id ="s" placeholder="Buscar" value="<?php the_search_query(); ?> ">
+
+<input type="text" name="post_type" value="product" class="hidden">
+<input type="submit" id="btn_Search" value="buscar">
+
+</form>
+
+</div>
+
+
+</div>
+
+
+</div>
 
 
 

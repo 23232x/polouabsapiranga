@@ -18,6 +18,21 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 
 
+/**
+ * Add HTML5 theme support.
+ */
+// function wp_lule_after_setup_them() {
+//   add_theme_support( 'html5', array( 'search-form' ) );
+// }
+// add_action( 'after_setup_theme', 'wp_lule_after_setup_theme' );
+  
+
+
+
+
+
+
+
 // ******* Function to registry JS into wordpress pages *********
 function polo_scripts(){  
   wp_register_script('teste', get_template_directory_uri() . '/assets/js/teste.js', [], false, true);
