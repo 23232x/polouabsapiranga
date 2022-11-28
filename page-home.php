@@ -27,10 +27,6 @@
                     </p>
 
                     <div class="pesquisa">
-
-
-
-
                         <span>Encontre um curso</span>
 
 
