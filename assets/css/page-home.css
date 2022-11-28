@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 .partners {
     margin: 5rem auto;
@@ -16,8 +16,7 @@ h4.title-section {
     margin: 4rem 0;
     font-weight: 500;
     line-height: 5rem;
-    width: 45%;
-
+    width: 45%
 }
 
 .partners ul {
@@ -50,45 +49,65 @@ h4.title-section {
     filter: gray scale(0%);
 }
 
+
+
+/***** here starts the hero main styles *****/
+
+/* set img for the background */
 .main-hero {
     height: 100vh;
+    /* width: 100vw; */
     background-image: url('../img/hero/hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end
 }
 
+/* turn the container as flexibel */
+.main-hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+/* intro text */
 p.text-intro {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 4.5rem;
-    font-weight: 500;
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 7rem;
+    font-weight: 100;
     color: #fff;
-    width: 45%
+    width: 50%
 }
 
 
 .pesquisa {
+    margin-top: 15rem;
     display: flex;
     align-items: center;
+    margin-left: 10%
 }
 
 .pesquisa span {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 400;
-    font-size: 3rem;
-    color: #fff
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-right: 3rem
 }
 
 .busca form {
-    display: grid;
+    display: grid
 }
 
 .hidden {
-    display: none;
+    display: none
 }
 
 .busca #s {
-    border: 2px solid #fff;
+    border: 2px solid #fff
 }
