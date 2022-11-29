@@ -1,15 +1,15 @@
 <?php
-// Template Name: page-contato
+// Template Name:Contato
 ?>
 
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
-<!-- the contend must be here -->
+        <!-- the contend must be here -->
 
 
-<div class="section container">
+        <div class="section container">
             <!-- all subpages contains this section socials icon on the top page -->
             <div class="social-medias-top-page">
                 <!-- Social medias -->
@@ -107,7 +107,7 @@
 
 
 
-</section>
+        </section>
 
 
 

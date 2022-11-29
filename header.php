@@ -3,13 +3,13 @@
 
 <head>
   <title><?php bloginfo('name'); ?></title>
- 
- 
- 
+
+
+
 
 
   <!--<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/responsive.css" media="screen and (max-width:980px)"> -->
-  <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/assets/css/menu.css" media="screen and (max-width:694px)"> -->
+  <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/menu.css" media="screen and (max-width:694px)"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- wordpress header -->
@@ -58,14 +58,13 @@
       <div class="container">
         <nav class="menu on">
           <ul>
-            <li><a href="/page-home.php">home</a></li>
-
-            <li><a href="/page-sobre.php">sobre</a></li>
+            <li><a href="/">home</a></li>
+            <li><a href="page-sobre.php">sobre</a></li>
             <li><a href="#">graduação</a></li>
             <li><a href="#">pós graduação</a></li>
             <li><a href="#">editais</a></li>
             <li><a href="#">noticias</a></li>
-            <li><a href="#">contato</a></li>
+            <li><a href="page-contato">contato</a></li>
             <li><a href="/page-faq.php">faq</a></li>
           </ul>
         </nav>
