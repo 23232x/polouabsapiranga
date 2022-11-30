@@ -46,14 +46,6 @@
                 </div>
             </section>
 
-
-
-
-
-
-
-
-
             <!-- and now the cool swiper goes down here -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -104,21 +96,6 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- this section contains the universety partner of polo UAB Sapiranga -->
 
             <section class="partners container">
@@ -131,22 +108,12 @@
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ufrgs.png" alt=""></a></li>
                 </ul>
             </section>
-
-
-
         </main>
 
 
-
-
-
-
-
-
-
-
         <!-- fim do loope principal -->
-<?php }
+<?php
+    }
 } ?>
 
 

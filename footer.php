@@ -3,7 +3,7 @@
             <!-- primeira coluna logo -->
             <div class="footer-item">
                 <a href="">
-                    <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/footer/logo-polo_footer.svg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/logo-polo_footer.svg" alt="">
                 </a>
             </div>
 
@@ -39,15 +39,15 @@
             <section class="footer-item">
                 <h2>Acesso Rápido</h2>
                 <ul>
-                    <li><a href="#" title="">Home</a></li>
-                    <li><a href="#" title="">Contato</a></li>
-                    <li><a href="#" title="">Editais</a></li>
+                    <li><a href="/polouabsapiranga/home" title="">Home</a></li>
+                    <li><a href="/polouabsapiranga/contato" title="">Contato</a></li>
+                    <li><a href="/polouabsapiranga/editais" title="">Editais</a></li>
                     <li><a href="#" title="">Acessibilidade</a></li>
-                    <li><a href="#" title="">Atendimento</a></li>
+                    <!-- <li><a href="#" title="">Atendimento</a></li> -->
                     <li><a href="#" title="">Blog</a></li>
-                    <li><a href="#" title="">Termos de uso</a></li>
-                    <li><a href="#" title="">Políticas de Privacidade</a></li>
-                    <li><a href="#" title="">Biblioteca</a></li>
+                    <li><a href="/polouabsapiranga/termos-de-uso" title="">Termos de uso</a></li>
+                    <li><a href="/polouabsapiranga/politicas-de-privacidade" title="">Políticas de Privacidade</a></li>
+                    <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
                 </ul>
 
                 <ul class="social-medias">
@@ -100,14 +100,12 @@
     </footer>
 
 
-<!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script> -->  
+    <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script> -->
 
-     
+
 
     <!-- wordpress footer -->
     <?php wp_footer(); ?>
     </body>
+
     </html>
-
-
-

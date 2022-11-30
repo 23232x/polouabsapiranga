@@ -1,14 +1,14 @@
 <?php
-// Template Name:Contato
+// Template Name:contato
 ?>
 
 <?php get_header(); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+<?php if (have_posts()) {
+    while (have_posts()) {
+        the_post(); ?>
 
         <!-- the contend must be here -->
-
-
         <div class="section container">
             <!-- all subpages contains this section socials icon on the top page -->
             <div class="social-medias-top-page">
@@ -76,51 +76,18 @@
         <!-- page contend -->
         <section class="main-page bg">
             <div class="contend-section container">
-                <div class="faq-item">
-                    <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                    <div class="faq-title">
-                        <h4 id="faq01">O que é a UAB?</h4>
-                        <img class="cross" src="assets/img/icons/faq/plus.svg" alt="">
-                    </div>
-                    <p class="faq-answer" style="display: none;">É um programa federal que visa ampliar e interiorizar a
-                        oferta de cursos e
-                        programas de educação superior, por meio da educação a distância.
-                    </p>
-                </div>
+
+                <h1>Contato</h1>
 
 
-                <div class="faq-item">
-
-                    <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
-                    <div class="faq-title">
-                        <h4 id="faq01">O que é a UAB?</h4>
-                        <img class="cross" src="assets/img/icons/faq/plus.svg" alt="">
-                    </div>
-                    <p class="faq-answer" style="display: none;">É um programa federal que visa ampliar e interiorizar a
-                        oferta de cursos e programas de educação superior, por meio da educação a distância.
-                    </p>
-                </div>
             </div>
         </section>
 
 
+<?php
+    }
+}
 
-
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php endwhile;
-else : endif ?>
+?>
 
 <?php get_footer(); ?>
