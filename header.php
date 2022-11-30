@@ -58,14 +58,14 @@
       <div class="container">
         <nav class="menu on">
           <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="page-sobre.php">sobre</a></li>
+            <li><a href="/home">home</a></li>
+            <li><a href="/sobre">sobre</a></li>
             <li><a href="#">graduação</a></li>
             <li><a href="#">pós graduação</a></li>
             <li><a href="#">editais</a></li>
             <li><a href="#">noticias</a></li>
-            <li><a href="page-contato">contato</a></li>
-            <li><a href="/page-faq.php">faq</a></li>
+            <li><a href="/contato">contato</a></li>
+            <li><a href="/faq">faq</a></li>
           </ul>
         </nav>
       </div>

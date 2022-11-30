@@ -1,5 +1,5 @@
 <?php
-// Template Name:Sobre
+// Template Name:sobre
 ?>
 
 <?php get_header(); ?>
