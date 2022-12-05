@@ -17,42 +17,42 @@
                     <!-- facebook -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/face.svg" alt="Facebook Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
 
                     <!-- instagram -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/insta.svg" alt="Instagram Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/insta.svg" alt="Instagram Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
 
                     <!-- youtube -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/youtube.svg" alt="Youtube Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/youtube.svg" alt="Youtube Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
 
                     <!-- whatsapp -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/whats.svg" alt="whatsapp Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/whats.svg" alt="whatsapp Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
 
                     <!-- email -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/email.svg" alt="email Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/email.svg" alt="email Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
 
                     <!-- print -->
                     <li>
                         <a href="#">
-                            <img src="assets/img/icons/social-medias-top-page/print.svg" alt="Polo Universitário UAB - Sapiranga">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/print.svg" alt="Polo Universitário UAB - Sapiranga">
                         </a>
                     </li>
                 </ul>
