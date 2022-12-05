@@ -59,11 +59,13 @@
             <li><a href="/polouabsapiranga/sobre">sobre</a></li>
             <li><a href="/polouabsapiranga/graduacao">graduação</a></li>
             <li><a href="/polouabsapiranga/pos">pós graduação</a></li>
-            <li><a href="/polouabsapiranga/biblioteca">biblioteca</a></li>
+            <li><a href="/polouabsapiranga/pos">Cursos Previstos</a></li>
             <li><a href="/polouabsapiranga/editais">editais</a></li>
             <li><a href="/polouabsapiranga/noticias">noticias</a></li>
             <li><a href="/polouabsapiranga/contato">contato</a></li>
+            <li><a href="/polouabsapiranga/biblioteca">biblioteca</a></li>
             <li><a href="/polouabsapiranga/faq">faq</a></li>
+            <li><a href="/polouabsapiranga/faq">blog</a></li>
           </ul>
         </nav>
       </div>

@@ -22,8 +22,9 @@
 
                     <p class="text-intro">
 
-                        Transformando a Educação,
-                        criando futuros!
+                        <?php the_field('texto_intro'); ?>
+
+                        <!-- Transformando a Educação, criando futuros! -->
                     </p>
 
                     <div class="pesquisa">
@@ -99,7 +100,11 @@
             <!-- this section contains the universety partner of polo UAB Sapiranga -->
 
             <section class="partners container">
-                <h4 class="title-section">Instituições que trabalham juntas para oferecer a melhor educação no polo UAB em Sapiranga.</h4>
+                <h4 class="title-section">
+
+                    <?php the_field('titulo_instituicoes_parceiras'); ?>
+
+                </h4>
                 <ul>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt=""></a></li>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/ifsul.png" alt=""></a></li>
