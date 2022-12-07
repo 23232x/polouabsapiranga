@@ -31,7 +31,7 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 // ******* Function to registry JS into wordpress pages *********
 function polo_scripts()
 {
-  wp_register_script('teste', get_template_directory_uri() . '/assets/js/teste.js', [], false, true);
+  // wp_register_script('teste', get_template_directory_uri() . '/assets/js/teste.js', [], false, true);
   wp_register_script('swiper', get_template_directory_uri() . '/assets/js/swiper.js', [], false, true);
   wp_enqueue_script('teste', 'swiper');
 }
