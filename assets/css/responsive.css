@@ -1,8 +1,36 @@
-/* media queries
-Conceito responsivo de font-size
+/* 
+This style sheet contains all responsive sets of all pages 
 
 */
 
-html {
-    font-size: 50%;
+
+
+
+
+
+/* ****** GENERAL STYLE ******* */
+@media(max-width:1302px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* ****** HEADER STYLE ******* */
+@media(max-width:1302px) {
+    .second-column .container nav.menu ul li a {
+        /* padding: 0.25rem !important; */
+        margin: 1rem !important;
+        margin-right: 0.75rem !important;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:877px) {
+    .second-column .container .menu.off {
+        display: none;
+    }
+
+    .second-column .container.on {
+        display: block;
+    }
 }

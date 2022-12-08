@@ -76,7 +76,6 @@
             </div>
 
             <div class="contend-section">
-
                 <p class="text wrapper"></p>
             </div>
 
