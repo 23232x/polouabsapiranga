@@ -1,13 +1,3 @@
-/* 
-This style sheet contains all responsive sets of all pages 
-
-*/
-
-
-
-
-
-
 /* ****** GENERAL STYLE ******* */
 @media(max-width:1302px) {
     html {
@@ -15,7 +5,8 @@ This style sheet contains all responsive sets of all pages
     }
 }
 
-/* ****** HEADER STYLE ******* */
+/********************BEGIN*********************/
+/*********** HEADER STYLE ********/
 @media(max-width:1302px) {
     .second-column .container nav.menu ul li a {
         /* padding: 0.25rem !important; */
@@ -34,3 +25,32 @@ This style sheet contains all responsive sets of all pages
         display: block;
     }
 }
+
+/*END*/
+
+
+/********************BEGIN*********************/
+/*********** REDUCE THE ICONS ON 670px ********/
+@media(max-width:670px) {
+    .social-medias-top-page ul li a img {
+        width: 2.5rem;
+    }
+}
+
+/*END*/
+
+
+/********************BEGIN*********************/
+/******** CHANGE TO FLEX-START THE DIV*********/
+@media (max-width:1033px) {
+    .title-section {
+        align-self: flex-start;
+    }
+
+    .contend-section .text-wrapper {
+        align-self: flex-start;
+        max-width: 95%;
+    }
+}
+
+/*END*/

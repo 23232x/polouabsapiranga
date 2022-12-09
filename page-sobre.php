@@ -56,13 +56,9 @@
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/social-medias-top-page/print.svg" alt=" Versão impressa da página">
                         </a>
                     </li>
-
-
-
-
-
                 </ul>
             </div>
+
 
             <!-- tittle -->
             <div class="title-section">
@@ -78,9 +74,9 @@
 
             <div class="contend-section">
 
-                <p class="text wrapper">
+                <div class="text-wrapper">
                     <?php the_field('texto_sobre'); ?>
-                </p>
+                </div>
             </div>
 
 

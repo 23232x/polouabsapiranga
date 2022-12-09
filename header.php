@@ -40,7 +40,9 @@
     <div class="second-column">
 
       <!-- this container turns on below 877px  -->
-      <div class="container on">
+      <!-- tThe classe below is used like that: 'container on right-side' so, add 'on' and 'right-side' class
+    using js.  -->
+      <div class="container">
         <div class="wrapper-hamburger">
           <span class="title-menu">Menu</span>
           <div class="menu-hamburguer">
@@ -51,8 +53,14 @@
         </div>
       </div>
 
+
       <!-- this container turns of below 877px  -->
-      <div class="container off">
+      <!-- Lateral class, is used only for display the lateral menu on responsive perspective 
+    The classe below is used like that: 'container off lateral', so, add 'off' and 'lateral' class
+    using js.
+    
+    -->
+      <div class="container">
         <nav class="menu ">
           <ul>
             <li><a href="/polouabsapiranga/home">home</a></li>

@@ -94,3 +94,34 @@
     font-weight: 400;
     font-size: 1.4rem;
 }
+
+/* ******* Style responsive menu right side */
+.container.on.right-side {
+    position: relative;
+}
+
+.container.off.lateral {
+    width: 100vw;
+    position: absolute;
+    display: block;
+    top: 17rem;
+    background-color: #fff;
+}
+
+.container.off.lateral nav.menu ul {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    margin-left: 4rem;
+}
+
+.container.off.lateral nav.menu ul li {
+    border-bottom: 0.1px solid #E5E5E5;
+}
+
+.container.off.lateral nav.menu ul li a {
+    color: #241f20;
+
+
+
+}
