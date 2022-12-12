@@ -50,47 +50,46 @@
                     <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
                 </ul>
 
-                <ul class="social-medias">
-                    <!-- youtube -->
-                    <li>
-                        <a href="">
-                            <img src="img/footer/social/insta.svg" alt=""></a>
-                    </li>
 
-                    <!-- facebook -->
-                    <li>
-                        <a href="">
-                            <img src="img/footer/social/face.svg" alt=""></a>
-                    </li>
-
-                    <!-- youtube -->
-                    <li>
-                        <a href="">
-                            <img src="img/footer/social/youtube.svg" alt=""></a>
-                    </li>
-
-                    <!-- whatsapp -->
-                    <li>
-                        <a href="">
-                            <img src="img/footer/social/whats.svg" alt=""></a>
-                    </li>
-
-                    <!-- twitter -->
-                    <li>
-                        <a href="">
-                            <img src="img/footer/social/twitter.svg" alt=""></a>
-                    </li>
-                </ul>
             </section>
         </div>
 
         <nav class="menu-footer container">
-            <ul class="">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">FAQ</a></li>
+            <ul class="social-medias">
+                <!-- youtube -->
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/insta.svg" alt="">
+                    </a>
+                </li>
+
+                <!-- facebook -->
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/face.svg" alt="">
+                    </a>
+                </li>
+
+                <!-- youtube -->
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/youtube.svg" alt="">
+                    </a>
+                </li>
+
+                <!-- whatsapp -->
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/whats.svg" alt="">
+                    </a>
+                </li>
+
+                <!-- twitter -->
+                <li>
+                    <a href="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer/social/twitter.svg" alt="">
+                    </a>
+                </li>
             </ul>
         </nav>
 
@@ -98,11 +97,6 @@
             <span class="">Polo Universitário de Sapiranga - Todos os Direitos reservados</span>
         </div>
     </footer>
-
-
-    <!-- <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script> -->
-
-
 
     <!-- wordpress footer -->
     <?php wp_footer(); ?>
