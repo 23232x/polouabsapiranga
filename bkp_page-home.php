@@ -5,7 +5,6 @@
 
 <!-- importa o header -->
 <?php get_header(); ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
 <!-- faz o LOOP principal -->
 <?php if (have_posts()) {
@@ -15,17 +14,29 @@
 
         <!-- all the contend page goes here -->
         <main>
+
             <section class="main-hero">
+
                 <div class="container">
+
+
                     <p class="text-intro">
+
                         <?php the_field('texto_intro'); ?>
+
                         <!-- Transformando a Educação, criando futuros! -->
                     </p>
+
                     <div class="pesquisa">
                         <span>Encontre um curso</span>
+
+
                         <!-- this div contais the search form -->
                         <div class="search_form">
+
                             <!-- <?php get_search_form(); ?> -->
+
+
                             <form action="<?php bloginfo('url'); ?>/" method="get">
                                 <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?> ">
                                 <input type="text" name="post_type" value="product" class="hidden">
@@ -59,11 +70,9 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- class de slde -->
-                    <!-- This class enable the swiper content -->
                     <div class="swiper-slide">
                         <div class="slide-item">
+
                             <!-- 1º colunm -->
                             <div class="slide-item-left">
                                 <h4>Título</h4>
@@ -75,6 +84,7 @@
                                 </p>
                                 <a class="btn-hero" href="">Saiba mais</a>
                             </div>
+
                             <!-- 2º colunm -->
                             <div class="slide-item-right">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
@@ -91,7 +101,9 @@
 
             <section class="partners container">
                 <h4 class="title-section">
+
                     <?php the_field('titulo_instituicoes_parceiras'); ?>
+
                 </h4>
                 <ul>
                     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/partners/furg.png" alt=""></a></li>
@@ -112,22 +124,3 @@
 
 <!-- importa o footer -->
 <?php get_footer(); ?>
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-</script>
