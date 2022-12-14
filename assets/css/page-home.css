@@ -109,3 +109,25 @@ p.text-intro {
 .busca #s {
     border: 2px solid #fff
 }
+
+
+
+
+/*************** SWIPER**********/
+/********************************/
+
+.swiper-button-next {
+    background-color: #E22F24;
+    margin-right: 10rem;
+}
+
+.swiper-button-prev {
+    margin-left: 50%;
+    background-color: #E22F24;
+    background-image: url("../img/icons/arrow-left.svg") no-repeat center !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: '->' !important;
+}

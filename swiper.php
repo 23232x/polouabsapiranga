@@ -48,6 +48,8 @@
 <body>
     <!-- Swiper -->
     <div class="swiper mySwiper">
+
+        <!-- swiper slide -->
         <div class="swiper-wrapper">
             <div class="swiper-slide">Slide 1</div>
             <div class="swiper-slide">Slide 2</div>
@@ -59,6 +61,8 @@
             <div class="swiper-slide">Slide 8</div>
             <div class="swiper-slide">Slide 9</div>
         </div>
+
+        <!-- swiper navegation -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
@@ -76,12 +80,15 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
+            speed: 400,
             slidesPerView: 1,
             spaceBetween: 30,
+
             loop: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+
             },
             navigation: {
                 nextEl: ".swiper-button-next",
