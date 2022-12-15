@@ -57,5 +57,32 @@
 
 
 
-/********************BEGIN*********************/
-/*******************FOOTER**********************/
+/******************** SWIPER ********************/
+/******************** BEGIN *********************/
+@media(max-width: 700px) {
+    p.text-intro {
+        width: 75% !important;
+        font-size: 5vh !important;
+
+    }
+}
+
+
+
+
+/******************** TITLE  ********************/
+/* This section goeson the page home, it the title for the
+partner institutions*/
+/******************** BEGIN *********************/
+@media(max-width:939px) {
+    h4.title-section {
+        text-align: center;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:521px) {
+    h4.title-section {
+        font-size: 3rem !important;
+    }
+}

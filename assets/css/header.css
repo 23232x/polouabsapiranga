@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .first-column.container ul {
@@ -121,7 +120,9 @@
 
 .container.off.lateral nav.menu ul li a {
     color: #241f20;
+}
 
-
-
+.container nav.menu {
+    display: none;
+    visibility: hidden;
 }

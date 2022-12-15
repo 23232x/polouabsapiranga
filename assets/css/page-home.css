@@ -12,10 +12,10 @@
 /* override the reset.css */
 h4.title-section {
     text-align: left;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 4rem 0;
-    font-weight: 500;
-    line-height: 5rem;
+    font-weight: 300;
+    line-height: 4rem;
     width: 45%
 }
 
@@ -76,16 +76,17 @@ h4.title-section {
 p.text-intro {
     /* font-family: 'Source Serif Pro', serif; */
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 100;
     color: #fff;
-    width: 50%
+    width: 65%
 }
 
 
 .pesquisa {
     margin-top: 15rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
 }
@@ -110,24 +111,28 @@ p.text-intro {
     border: 2px solid #fff
 }
 
-
-
-
 /*************** SWIPER**********/
 /********************************/
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: block !important;
+    width: 10px !important;
+}
 
 .swiper-button-next {
-    background-color: #E22F24;
     margin-right: 10rem;
 }
 
 .swiper-button-prev {
-    margin-left: 50%;
-    background-color: #E22F24;
-    background-image: url("../img/icons/arrow-left.svg") no-repeat center !important;
+    margin-left: 43%;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    content: '->' !important;
+.swiper.mySwiper {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.swiper-pagination {
+    margin-left: -30%;
+    margin-bottom: 55%
 }
