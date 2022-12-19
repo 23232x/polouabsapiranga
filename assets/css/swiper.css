@@ -108,3 +108,39 @@ body {
     flex: 3 2 55rem;
     background-color: burlywood
 }
+
+
+
+/*************** SWIPER**********/
+/********************************/
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: block !important;
+    width: 10px !important;
+}
+
+.swiper-button-next {
+    margin-right: 10rem;
+}
+
+.swiper-button-prev {
+    margin-left: 43%;
+}
+
+.swiper.mySwiper {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.swiper-pagination {
+    margin-left: -30%;
+    margin-bottom: 55%
+}
+
+
+/* Media */
+@media(max-width:730px) {
+    .swiper-slide.swiper-slide-active {
+        display: flex !important;
+    }
+}

@@ -110,29 +110,3 @@ p.text-intro {
 .busca #s {
     border: 2px solid #fff
 }
-
-/*************** SWIPER**********/
-/********************************/
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    display: block !important;
-    width: 10px !important;
-}
-
-.swiper-button-next {
-    margin-right: 10rem;
-}
-
-.swiper-button-prev {
-    margin-left: 43%;
-}
-
-.swiper.mySwiper {
-    display: flex !important;
-    flex-wrap: wrap !important;
-}
-
-.swiper-pagination {
-    margin-left: -30%;
-    margin-bottom: 55%
-}
