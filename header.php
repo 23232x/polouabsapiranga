@@ -18,7 +18,7 @@
   <header class="header">
     <!-- firt-row (logo e itens de acessibilidade e pesquisa) -->
     <div class="first-column container">
-      <a href="#">
+      <a href="/">
         <img class="logo-polo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/LogoPolo.svg" alt="">
       </a>
 
@@ -82,27 +82,6 @@
   </header>
 
   <!-- The responsive menu goes here -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   <!-- sub-menu sobre -->
   <!-- <div class="sub-menu" style="display:none;"> -->
