@@ -26,12 +26,32 @@
         <li>
           <a href="#">
             <img class="accessibility" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/accessibility.svg" alt="Acessibilidade">
-            <span class="accessibility">Acessibilidade</span>
+            <span class="accessibility-title">Acessibilidade</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="search" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/search.svg" alt="Pesquisar"><span class="search">Pesquisar</span></a>
+            <img class="search" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/header/search.svg" alt="Pesquisar">
+            <span class="search-title">Pesquisar</span>
+
+            <!-- search form -->
+            <div class="search_form">
+              <!-- <?php get_search_form(); ?> -->
+              <form action="<?php bloginfo('url'); ?>/" method="get">
+                <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?> ">
+                <input type="text" name="post_type" value="product" class="hidden">
+                <input type="submit" id="btn_Search" value="buscar">
+              </form>
+            </div>
+
+          </a>
+
+
+
+
+
+
+
         </li>
       </ul>
     </div>

@@ -59,13 +59,9 @@
                                 <a class="btn-hero" href="">Saiba mais</a>
                             </div>
 
-
-
-
                             <!-- 2º colunm -->
                             <div class="slide-item-right">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hero/hero1.jpg" alt="">
-
                             </div>
                         </div>
                     </div>
@@ -93,8 +89,10 @@
 
                 </div>
 
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="wrapper-buttons">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
 
 
 

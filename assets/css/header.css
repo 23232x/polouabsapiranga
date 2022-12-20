@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .first-column.container ul {
@@ -125,4 +126,17 @@
 .container nav.menu {
     display: none;
     visibility: hidden;
+}
+
+/* remove a palavra  */
+@media(max-width:520px) {
+
+    .accessibility-title,
+    .search-title {
+        display: none;
+    }
+
+    .first-column.container ul li:first-child {
+        margin-right: 1rem;
+    }
 }
