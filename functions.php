@@ -28,6 +28,11 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 
 
+
+
+
+
+
 // ******* Function to registry JS into wordpress pages *********
 function polo_scripts()
 {
