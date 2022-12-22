@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /*******************BEGIN*********************/
 /******** The social media top paget style****/
@@ -16,6 +16,7 @@
 
 .social-medias-top-page ul li {
     margin-right: 20px;
+    width: 1.8rem;
 }
 
 /*END*/
@@ -165,4 +166,73 @@ ul.bg-write li a {
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: #241F20;
+}
+
+
+
+/****** CONTATO ******/
+.main-page.bg-contato {
+    margin: 5rem 0;
+    padding: 5rem 0;
+}
+
+.main-page.bg-contato {
+    background-color: #002140 !important;
+    width: 100%;
+    display: flex;
+
+}
+
+.wrapper-address {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.polo-address {
+    flex: 1 1 15%;
+    padding: 4rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column
+}
+
+.item-address {
+    margin: 2rem 0;
+}
+
+span.address-title {
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+span.address-description {
+    display: block;
+    color: #8d8c8c;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin-top: 1.3rem;
+}
+
+.polo-map {
+    flex: 2 1 60rem;
+    display: block;
+    width: 100%
+}
+
+.polo-map iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:718px) {
+    .polo-map {
+        height: 45rem;
+
+    }
 }

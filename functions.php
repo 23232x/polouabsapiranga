@@ -83,3 +83,39 @@ add_action('wp_enqueue_scripts', 'polo_style');
 
 
 <!-- https://code.tutsplus.com/articles/how-to-include-javascript-and-css-in-your-wordpress-themes-and-plugins--wp-24321 -->
+
+
+
+
+<!-- adding releted itens -->
+
+<?php
+function my_related_posts()
+{
+  $args = array('posts_per_page' => 5, 'post_in' => get_the_tag_list());
+  $the_query = new WP_Query($args);
+  echo '<section id="related_posts">';
+  echo '<h2>Posts Relacionados</h2>';
+  while ($the_query->have_posts()) : $the_query->the_post();
+?>
+    <section class="item">
+      <?php if (has_post_thumbnail()) { ?>
+        <section class="related_post_thumb">
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('related-post'); ?></a>
+        </section>
+      <?php } else { ?>
+        <section class="related_post_thumb">
+          <a href="<?php the_permalink(); ?>">
+            <img src="<?php bloginfo('template_directory') ?>/lib/images/thumb.png" />
+          </a>
+        </section>
+      <?php } ?>
+      <?php the_title(); ?>
+    </section>
+<?php
+  endwhile;
+  echo '<div class="clear"></div></section>';
+  wp_reset_postdata();
+}
+
+?>

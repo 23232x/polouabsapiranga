@@ -6,3 +6,7 @@ A função <?php get_search_form(); ?> busca o template de busca padrão que est
 dentro do template: "searchform.php" , caso este template não existá, será utilizado um template padrão localizado em "wp-includes/general-template.php" .
 
 https://full.services/como-personalizar-os-resultados-da-pagina-de-pesquisa-no-wordpress/?lang=pt-pt
+
+\***\* Add releted itens \*\***
+1 - https://www.hostinger.com.br/tutoriais/plugin-wordpress-posts-relacionados
+2 -
