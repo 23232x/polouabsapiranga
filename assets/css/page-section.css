@@ -210,8 +210,8 @@ span.address-title {
 
 span.address-description {
     display: block;
-    color: #8d8c8c;
-    font-weight: 400;
+    color: #241f20;
+    font-weight: 350;
     font-size: 1.6rem;
     line-height: 24px;
     margin-top: 1.3rem;
@@ -230,7 +230,7 @@ span.address-description {
 }
 
 
-@media(max-width:718px) {
+@media(max-width:735px) {
     .polo-map {
         height: 45rem;
 
