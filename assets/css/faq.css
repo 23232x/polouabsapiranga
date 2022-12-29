@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 .main-page.bg {
     background-color: #F3F0EC;
     display: flex;
     padding: 5rem 0;
+    justify-content: center
 }
 
-.contend-section.container {
+
+.contend-section {
     max-width: 65%;
     background-color: #fff;
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-    height: fit-content;
-
+    /* height: fit-content;*/
 }
 
 /*This media remove the margin right of the container*/
@@ -56,9 +58,11 @@
 .faq-title h4,
 .link-title h4 {
     font-family: 'Playfair Display', serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 200;
     color: #241f20;
+    /* letter-spacing: 1px; */
 }
 
 .faq-title img,
@@ -69,12 +73,20 @@
 
 .faq-item p.faq-answer {
     font-size: 1.6rem;
-    line-height: 24px;
-    font-weight: 400;
-    color: #666666;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    line-height: 28px;
+    color: #241F20;
+    font-weight: 500;
+    padding: 1rem 0;
     padding-left: 2rem;
+    margin: 2rem 0;
+}
+
+.faq-item ul.list-faq li p {
+    padding: 1rem;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #241F20;
+    font-weight: 500;
 }
 
 
@@ -96,10 +108,17 @@ ul.list-faq {
     margin-right: 2rem;
 }
 
-ul.list-faq p {
+ul.list-faq li p {
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
+    font-size: 1.6rem;
+    padding: 0rem 2rem;
+    color: #241F20;
+    font-weight: 500;
 }
+
 
 ul.list-faq p::before {
     content: '';
@@ -108,11 +127,7 @@ ul.list-faq p::before {
     padding: 0.2rem;
     border-radius: 50%;
     margin-right: 10px;
-
 }
-
-
-
 
 @media (max-width:826px) {
     .main-page.bg {

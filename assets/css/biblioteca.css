@@ -11,7 +11,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 6rem;
-
 }
 
 .library-titles {
@@ -31,7 +30,6 @@
     font-weight: 250;
     margin-bottom: 1.5rem;
 }
-
 
 .contend-section.container {
     margin: 1rem 0;
@@ -55,21 +53,15 @@
     background-color: aqua;
 } */
 
-
-
 @media(max-width:826px) {
 
     .contend-section.container {
         justify-content: flex-start;
         min-width: 100%;
-        margin-top: 6.5rem;
     }
 
     .library-titles p {
         line-height: 19px;
         padding-right: 0px;
     }
-
-
-
 }

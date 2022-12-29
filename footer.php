@@ -9,7 +9,7 @@
 
             <!-- segunda coluna - cursos de graduação -->
             <section class="footer-item">
-                <h2>Graduação</h2>
+                <h4>Graduação</h4>
                 <ul>
                     <li><a href="#" title="">Filosofia (UFPEL)</a></li>
                     <li><a href="#" title="">Matemática (UFPEL)</a></li>
@@ -23,7 +23,7 @@
 
             <!-- segunda coluna - cursos de pós-graduação -->
             <section class="footer-item">
-                <h2>Pós-Graduação</h2>
+                <h4>Pós-Graduação</h4>
                 <ul>
                     <li><a href="#" title="">Gestão da educação(UFRGS)</a></li>
                     <li><a href="#" title="">Educação em direitos humanos (FURG)</a></li>
@@ -37,17 +37,20 @@
 
             <!-- segunda coluna - cursos de pós-graduação -->
             <section class="footer-item">
-                <h2>Acesso Rápido</h2>
+                <h4>Acesso Rápido</h4>
                 <ul>
                     <li><a href="/polouabsapiranga/home" title="">Home</a></li>
                     <li><a href="/polouabsapiranga/contato" title="">Contato</a></li>
                     <li><a href="/polouabsapiranga/editais" title="">Editais</a></li>
+                    <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
+                    <li><a href="#" title="">Blog</a></li>
+                    <li><a href="/polouabsapiranga/faq" title="">FAQ</a></li>
                     <li><a href="#" title="">Acessibilidade</a></li>
                     <!-- <li><a href="#" title="">Atendimento</a></li> -->
-                    <li><a href="#" title="">Blog</a></li>
+
                     <li><a href="/polouabsapiranga/termos-de-uso" title="">Termos de uso</a></li>
                     <li><a href="/polouabsapiranga/politicas-de-privacidade" title="">Políticas de Privacidade</a></li>
-                    <li><a href="/polouabsapiranga/biblioteca" title="">Biblioteca</a></li>
+
                 </ul>
 
 

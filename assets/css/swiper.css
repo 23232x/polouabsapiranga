@@ -68,6 +68,7 @@ body {
 }
 
 .slide-item-left h4 {
+    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     line-height: 3rem;
     color: #241f20;
@@ -76,6 +77,8 @@ body {
 }
 
 .slide-item-left h2 {
+    font-family: 'Playfair Display', serif;
+    padding-right: 2rem;
     font-size: 5rem;
     font-weight: 500;
     color: #241f20;
@@ -87,10 +90,10 @@ body {
     text-align: left;
     font-weight: 400;
     color: #241f20;
-    line-height: 2.4rem;
-    font-size: 1.6rem;
+    line-height: 26px;
+    font-size: 1.8rem;
     /* width: 93%; */
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .slide-item-left a.btn-hero {

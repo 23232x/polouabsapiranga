@@ -114,8 +114,7 @@
 
 
 
-            <p>Curso de matemática é 10</p>
-            <p>Acesso o <a href="google.com.br">Google.com</a>para pesquisa</p>
+
 
 
 

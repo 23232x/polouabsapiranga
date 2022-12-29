@@ -1,22 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /*******************BEGIN*********************/
 /******** The social media top paget style****/
 .social-medias-top-page {
     align-self: flex-start;
-    margin: 2.5rem 0;
+    margin: 2.5rem 0
 }
 
 .social-medias-top-page ul {
-    display: flex;
+    display: flex
 }
 
 .social-medias-top-page ul li {
     margin-right: 20px;
-    width: 1.8rem;
+    width: 1.8rem
 }
 
 /*END*/
@@ -27,20 +24,21 @@
 .section.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 .title-section {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
-    align-content: center;
+    align-content: center
 }
 
 /* title */
 .title-section h4 {
+    font-family: 'Playfair Display', serif;
     color: #241F20;
-    font-size: 4.5rem;
+    font-size: 4.5rem
 }
 
 /* subtitle */
@@ -52,26 +50,26 @@
     font-size: 1.8rem;
     color: #241f20;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 400
 }
 
 .contend-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%
 }
 
 .text-wrapper {
     max-width: 65%;
     align-self: flex-end;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem
 }
 
 .text-wrapper p {
     margin: 2rem 0;
     font-size: 1.8rem;
     color: #241F20;
-    line-height: 30px;
+    line-height: 30px
 }
 
 
@@ -90,20 +88,20 @@ Pages that contains the style below
 
 .bg-gray {
     background-color: #D9D9D9;
-    padding: 5rem 0;
+    padding: 5rem 0
 }
 
 .bg-gray .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 
 .bg-gray .container ul li h4 {
     font-size: 3rem;
     color: #241F20;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', serif
 }
 
 .bg-gray .container ul li span.sub-title {
@@ -111,21 +109,21 @@ Pages that contains the style below
     font-size: 1.6rem;
     width: 65%;
     line-height: 2.5rem;
-    margin-top: 3rem;
+    margin-top: 3rem
 }
 
 .box-cursos {
     display: flex;
     flex-direction: column;
     width: 45em;
-    padding: 25px;
+    padding: 25px
 }
 
 .box {
     margin-bottom: 3rem;
     -webkit-box-shadow: 0px 0px 12px -1px rgb(94, 94, 94);
     -moz-box-shadow: 0px 0px 12px -1px rgb(94, 94, 94);
-    box-shadow: 0px 0px 12px -1px rgb(94, 94, 94);
+    box-shadow: 0px 0px 12px -1px rgb(94, 94, 94)
 }
 
 ul.box li h4.title {
@@ -135,7 +133,7 @@ ul.box li h4.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1.5rem;
+    padding-left: 1.5rem
 }
 
 
@@ -146,7 +144,7 @@ ul.box li h4::after {
     background-color: #241F20;
     height: 100%;
     padding: 1.3rem;
-    cursor: pointer;
+    cursor: pointer
 }
 
 ul.bg-write {
@@ -159,13 +157,13 @@ ul.bg-write li {
     border-bottom: 2px solid #F3F0EC;
     padding: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 ul.bg-write li a {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    color: #241F20;
+    color: #241F20
 }
 
 
@@ -173,20 +171,19 @@ ul.bg-write li a {
 /****** CONTATO ******/
 .main-page.bg-contato {
     margin: 5rem 0;
-    padding: 5rem 0;
+    padding: 5rem 0
 }
 
 .main-page.bg-contato {
     background-color: #002140 !important;
     width: 100%;
-    display: flex;
-
+    display: flex
 }
 
 .wrapper-address {
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .polo-address {
@@ -198,23 +195,23 @@ ul.bg-write li a {
 }
 
 .item-address {
-    margin: 2rem 0;
+    margin: 2rem 0
 }
 
 span.address-title {
-    font-family: 'Libre Bodoni', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     font-weight: 700;
-    margin-top: 3rem;
+    margin-top: 3rem
 }
 
 span.address-description {
     display: block;
     color: #241f20;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 24px;
-    margin-top: 1.3rem;
+    margin-top: 1.3rem
 }
 
 .polo-map {
@@ -226,13 +223,12 @@ span.address-description {
 .polo-map iframe {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 
 @media(max-width:735px) {
     .polo-map {
-        height: 45rem;
-
+        height: 45rem
     }
 }

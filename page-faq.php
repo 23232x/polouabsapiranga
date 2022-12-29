@@ -76,9 +76,8 @@
 
         <!-- page contend -->
         <section class="main-page bg">
-            <div class="contend-section container">
 
-
+            <div class="contend-section">
                 <!--*********** 1° FAQ ************** -->
                 <div class="faq-item">
                     <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
@@ -86,13 +85,10 @@
                         <h4 id="faq01">O que é a UAB?</h4>
                         <img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/faq/plus.svg" alt="">
                     </div>
-                    <p class="faq-answer" style="display: block;">É um programa federal que visa ampliar e interiorizar a
-                        oferta de cursos e
-                        programas de educação superior, por meio da educação a distância.
+                    <p class="faq-answer" style="display: block;">
+                        É um programa federal que visa ampliar e interiorizar a oferta de cursos e programas de educação superior, por meio da educação a distância.
                     </p>
                 </div>
-
-
 
                 <!--*********** 2° FAQ ************** -->
                 <div class="faq-item">
@@ -142,7 +138,6 @@
                     </p>
                 </div>
 
-
                 <!--*********** 6° FAQ **************-->
                 <div class="faq-item">
                     <!-- add class 'on' with js - must be like this <div class="faq-title on"> -->
@@ -155,16 +150,16 @@
                     </p>
                     <ul class="list-faq">
                         <li>
-                            <p class="faq-answer">oportunizar a oferta de cursos para dirigentes, gestores e outros profissionais da educação básica da rede pública;</p>
+                            <p>oportunizar a oferta de cursos para dirigentes, gestores e outros profissionais da educação básica da rede pública;</p>
                         </li>
                         <li>
-                            <p class="faq-answer">reduzir as desigualdades na oferta de ensino superior e desenvolver um amplo sistema nacional de educação superior a distância.</p>
+                            <p>reduzir as desigualdades na oferta de ensino superior e desenvolver um amplo sistema nacional de educação superior a distância.</p>
                         </li>
                         <li>
-                            <p class="faq-answer">formar professores e outros profissionais de educação nas áreas da diversidade;</p>
+                            <p>formar professores e outros profissionais de educação nas áreas da diversidade;</p>
                         </li>
                         <li>
-                            <p class="faq-answer">disseminação e desenvolvimento de metodologias educacionais de inserção dos temas de áreas como educação de jovens e adultos, educação ambiental, educação patrimonial, educação para os direitos humanos, educação das relações étnico-raciais, de gênero e orientação sexual e temas da atualidade no cotidiano das práticas das redes de ensino pública e privada de educação básica no Brasil.</p>
+                            <p>disseminação e desenvolvimento de metodologias educacionais de inserção dos temas de áreas como educação de jovens e adultos, educação ambiental, educação patrimonial, educação para os direitos humanos, educação das relações étnico-raciais, de gênero e orientação sexual e temas da atualidade no cotidiano das práticas das redes de ensino pública e privada de educação básica no Brasil.</p>
                         </li>
                     </ul>
                 </div>
@@ -254,6 +249,7 @@
                 </div>
 
             </div>
+
         </section>
 
 
