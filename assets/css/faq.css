@@ -16,12 +16,7 @@
     /* height: fit-content;*/
 }
 
-/*This media remove the margin right of the container*/
-@media(max-width:826px) {
-    .contend-section.container {
-        margin-right: 0rem;
-    }
-}
+
 
 .faq-item,
 .link-item {
@@ -76,9 +71,8 @@
     line-height: 28px;
     color: #241F20;
     font-weight: 500;
-    padding: 1rem 0;
-    padding-left: 2rem;
-    margin: 2rem 0;
+    padding: 1rem 2rem;
+    margin: 2rem 0
 }
 
 .faq-item ul.list-faq li p {
@@ -86,7 +80,7 @@
     font-size: 1.6rem;
     line-height: 28px;
     color: #241F20;
-    font-weight: 500;
+    font-weight: 500
 }
 
 
@@ -95,17 +89,17 @@
 .link-title.on {
     background-color: #002140;
     color: #fff;
-    font-weight: 400;
+    font-weight: 400
 }
 
 .faq-title.on h4,
 .link-title.on h4 {
-    color: #fff;
+    color: #fff
 }
 
 ul.list-faq {
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 2rem
 }
 
 ul.list-faq li p {
@@ -129,6 +123,7 @@ ul.list-faq p::before {
     margin-right: 10px;
 }
 
+
 @media (max-width:826px) {
     .main-page.bg {
         justify-content: center !important;
@@ -136,5 +131,12 @@ ul.list-faq p::before {
 
     .contend-section.container {
         max-width: 90%;
+        margin-right: 0rem;
+    }
+}
+
+@media(max-width:650px) {
+    .contend-section {
+        max-width: 85%;
     }
 }
