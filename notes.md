@@ -10,3 +10,7 @@ https://full.services/como-personalizar-os-resultados-da-pagina-de-pesquisa-no-w
 \***\* Add releted itens \*\***
 1 - https://www.hostinger.com.br/tutoriais/plugin-wordpress-posts-relacionados
 2 -
+
+What's the diference between searchpage.php, searchform.php and search.php?
+
+see at: https://wordpress.stackexchange.com/questions/4192/search-in-wordpress-difference-of-searchpage-php-searchform-php-and-search-ph

@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-.main-page.bg {
-    background-color: #F3F0EC;
-    display: flex;
-    padding: 5rem 0;
-    justify-content: center
-}
-
-
-.contend-section {
-    max-width: 65%;
-    background-color: #fff;
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-    /* height: fit-content;*/
-}
-
-
-
 .faq-item,
 .link-item {
     display: flex;
@@ -31,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    padding-left: 2rem;
+    padding-left: 2rem
 }
 
 .faq-title img.cross,
@@ -83,7 +66,6 @@
     font-weight: 500
 }
 
-
 /* when user clicon the question, the class 'on' is added and turn blue the question background.*/
 .faq-title.on,
 .link-title.on {
@@ -113,7 +95,6 @@ ul.list-faq li p {
     font-weight: 500;
 }
 
-
 ul.list-faq p::before {
     content: '';
     display: block;
@@ -122,7 +103,6 @@ ul.list-faq p::before {
     border-radius: 50%;
     margin-right: 10px;
 }
-
 
 @media (max-width:826px) {
     .main-page.bg {

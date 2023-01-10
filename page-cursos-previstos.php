@@ -67,7 +67,7 @@
             <!-- tittle -->
             <div class="title-section">
                 <h4><?php the_field('titulo_cursos_previstos'); ?></h4>
-                <ul class="sub-tittle-section">
+                <ul>
                     <li>
                         <span><?php the_field('subtitulo_cursos_previstos'); ?></span>
 

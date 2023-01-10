@@ -97,7 +97,7 @@
         </nav>
 
         <div class="copy">
-            <span class="">Polo Universitário de Sapiranga - Todos os Direitos reservados</span>
+            <span class=""><?php echo date('Y'); ?> - Polo Universitário de Sapiranga.</span>
         </div>
     </footer>
 

@@ -63,7 +63,7 @@
             <!-- tittle -->
             <div class="title-section">
                 <h4>FAQ - Perguntas Frequêntes.</h4>
-                <ul class="sub-tittle-section">
+                <ul>
                     <li>
                         <span>
                             Selecionamos uma lista de perguntas frequêntes para te ajudar

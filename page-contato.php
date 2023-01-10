@@ -61,7 +61,7 @@
             <!-- tittle -->
             <div class="title-section">
                 <h4>Nossos canais de atendimento</h4>
-                <ul class="sub-tittle-section">
+                <ul>
                     <li>
                         <span>
                             Nesta sessão você encontra, nossas formas de contato e a localização do Polo UAB Sapiranga. Para dúvidas, acesse nossa página de perguntas frequêntes
